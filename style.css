@@ -2,19 +2,14 @@
 fonts 
 ------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  /* font-style: normal;
-  font-weight: normal;
-  font-size: 16px; */
   background-color: #ffffff;
 }
-
 .top-banner {
-  /* display: flex;
-  justify-content: center; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,29 +19,18 @@ body {
   padding: 0;
   color: white;
 }
-
-/* .banner-info {
-  margin: 198px 800px 250px 164px;
-} */
-
 .top-banner:hover {
   transform: rotate(360deg);
-  /* background-image: linear-gradient(to right, #ff2a67, #ff5d3a); */
   background-color: #ff5d3a;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out;
+  transition: background-color 2s ease-out;
 }
-
 .banner-name {
   position: absolute;
-  /* justify-content: center;
-  display: flex;
-  justify-content: center; */
   display: flex;
   flex-direction: column;
-  /* width: 485px; */
   width: 33.6%;
   height: 230px;
   left: 156px;
@@ -55,29 +39,23 @@ body {
   line-height: 80px;
   margin: 0;
 }
-
 .btn {
-  /* position: absolute; */
-  /* margin: 480px 0px 0px 156px; */
   text-decoration: none;
   background-color: #e02c6d;
   color: white;
   font-weight: 700;
   padding: 20px 40px;
 }
-
 .btn1 {
   position: absolute;
   left: 156px;
   top: 464px;
 }
-
 .banner-image {
   margin-top: 153px;
   margin-left: 760px;
   top: 153px;
 }
-
 .banner-image img {
   top: 207px;
   width: 556.01px;
@@ -87,11 +65,10 @@ body {
   transform: rotate(360deg);
   transition: all 0.7s ease-in-out 0s;
 }
-
 main {
-  /* display: flex; */
   justify-content: center;
 }
+
 /* --------------------
 players style
 ------------------------  */
@@ -99,12 +76,7 @@ players style
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 30px;
-  /* font-style: normal;
-  font-weight: 400;
-  font-size: 16px; */
-  /* padding: 70px 210px 165px 180px; */
   padding: 70px 180px;
-  /* width: 870px; */
 }
 .player {
   height: 426px;
@@ -122,21 +94,11 @@ players style
 }
 .player-name {
   color: #18191f;
-  /* font-weight: bold; */
   font-size: 28px;
-  /* line-height: 40px; */
   height: 40px;
   width: 330px;
   margin: 16px 0px 10px 0px;
 }
-/* .player p {
-  margin: 0;
-  height: 104px;
-  width: 300px;
-  font-weight: 400;
-  font-size: 16px;
-  color: #6c6c6c;
-} */
 p {
   margin: 0;
   height: 104px;
@@ -145,7 +107,6 @@ p {
   font-size: 16px;
   color: #6c6c6c;
 }
-
 .highlights {
   display: flex;
   justify-content: center;
@@ -156,7 +117,6 @@ p {
   flex-direction: column;
   align-items: flex-start;
   width: 466px;
-  /* height: 309px; */
   height: 427px;
 }
 .intro h2 {
@@ -168,7 +128,6 @@ p {
 .intro p {
   word-wrap: break-word;
 }
-
 .thumbnail {
   margin-left: 66px;
   width: 567px;
@@ -178,25 +137,18 @@ p {
   width: 100%;
   height: 100%;
 }
-
 .footer {
-  /* width: 483.87px;
-  height: 213px;
-  margin-top: 156px 481.13px 63px 475px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* width: 483.87px; */
   height: 213px;
   margin-bottom: 63px;
-  /* background-color: #e02c6d; */
 }
 .footer-image img {
   width: 483.87px;
   height: 110px;
 }
-
 .social {
   display: flex;
   flex-direction: row;
@@ -219,7 +171,9 @@ p {
 /* -----------------
 Media Quaries
 -------------------- */
+
 /* mobile devices */
+
 @media only screen and (max-width: 360px) {
   .top-banner {
     height: 695px;
@@ -230,12 +184,8 @@ Media Quaries
 
   .banner-name {
     position: absolute;
-    /* justify-content: center;
-  display: flex;
-  justify-content: center; */
     display: flex;
     flex-direction: column;
-    /* width: 485px; */
     width: 278px;
     height: 138px;
     left: 16px;
@@ -266,8 +216,6 @@ Media Quaries
     height: 259.17px;
   }
   main {
-    /* display: flex; */
-    /* justify-content: center; */
     margin-top: 30px;
   }
   .players {
@@ -284,7 +232,6 @@ Media Quaries
   .highlights {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     margin: 0px 0px 43px 15px;
   }
   .intro {
@@ -301,10 +248,6 @@ Media Quaries
   }
   .intro p {
     word-wrap: break-word;
-    /* margin-left: 30px; */
-  }
-  #btn-2 {
-    /* margin-left: 30px; */
   }
   .thumbnail {
     margin-left: 0px;
@@ -315,7 +258,6 @@ Media Quaries
   .footer {
     height: 299px;
     margin-bottom: 187px;
-    /* background-color: #e02c6d; */
   }
   .footer-image img {
     width: 290px;
