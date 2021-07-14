@@ -1,7 +1,6 @@
 /* -------------------
 fonts 
 ------------------- */
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   margin: 0;
@@ -166,12 +165,39 @@ p {
   height: 100%;
 }
 
-footer {
-  width: 483.87px;
+.footer {
+  /* width: 483.87px;
   height: 213px;
-  margin-top: 156px 481.13px 63px 475px;
+  margin-top: 156px 481.13px 63px 475px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 483.87px; */
+  height: 213px;
+  margin-bottom: 63px;
+  /* background-color: #e02c6d; */
 }
-footer img {
+.footer-image img {
   width: 483.87px;
   height: 110px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 170px;
+  height: 32px;
+  margin-top: 20px;
+}
+.fab {
+  color: gray;
+  margin: 0px 14px;
+}
+.copyright {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
 }
