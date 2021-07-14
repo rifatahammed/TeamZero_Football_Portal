@@ -288,4 +288,8 @@ Media Quaries
   .social {
     margin-top: 29px;
   }
+
+  .bonus {
+    display: none;
+  }
 }
